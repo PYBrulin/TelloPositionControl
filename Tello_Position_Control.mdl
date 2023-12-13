@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "10.39"
+    ComputedModelVersion    "10.54"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -89,30 +89,28 @@ Model {
     }
     ExternalFileReference {
       Reference		      "quarc_library/Math Operations/Matrices/Euler Angles to\nRotation Matrix"
-      Path		      "Tello_Position_Control/Position control/correction block1/Subsystem1/Euler Angles to Rotation Matri"
-      "x1"
+      Path		      "Tello_Position_Control/Position control/rotation correction block1/Subsystem1/Euler Angles to Rotat"
+      "ion Matrix1"
       SID		      "833"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "quarc_library/Math Operations/Matrices/Euler Angles from\nRotation Matrix"
-      Path		      "Tello_Position_Control/Subsystem4/Localization Server/Data Server (Localization) /Convention Correc"
-      "tion (Motive Frame to Research Studio Frame)/Prevent Gimbal Lock/Euler Angles from Rotation Matrix (Relative ZYX"
-      ")"
+      Path		      "Tello_Position_Control/Subsystem4/Localization Server/Convention Correction (Motive Frame to Resear"
+      "ch Studio Frame)/Prevent Gimbal Lock/Euler Angles from Rotation Matrix (Relative ZYX)"
       SID		      "590"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "quarc_library/Math Operations/Matrices/Euler Angles to\nRotation Matrix"
-      Path		      "Tello_Position_Control/Subsystem4/Localization Server/Data Server (Localization) /Convention Correc"
-      "tion (Motive Frame to Research Studio Frame)/Prevent Gimbal Lock/Euler Angles to Rotation Matrix (Relative YZX)"
+      Path		      "Tello_Position_Control/Subsystem4/Localization Server/Convention Correction (Motive Frame to Resear"
+      "ch Studio Frame)/Prevent Gimbal Lock/Euler Angles to Rotation Matrix (Relative YZX)"
       SID		      "591"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "quarc_library/Devices/Third-Party/NaturalPoint/OptiTrack/OptiTrack Trackables"
-      Path		      "Tello_Position_Control/Subsystem4/Localization Server/Data Server (Localization) /OptiTrack Trackab"
-      "les"
+      Path		      "Tello_Position_Control/Subsystem4/Localization Server/OptiTrack Trackables"
       SID		      "611"
       Type		      "LIBRARY_BLOCK"
     }
@@ -193,44 +191,33 @@ Model {
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		29
+	Dimension		35
 	Object {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "536"
+	  LoadSaveID		  "543"
 	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.0689007499493277]
-	  Offset		  [-20.238192758899686, -64.264126972087411]
-	  SceneRectInView	  [-20.238192758899686, -64.264126972087411, 1760.6873230177994, 732.52825394417482]
+	  ZoomFactor		  [1.5]
+	  Offset		  [-469.91623006495161, 265.05970867244457]
+	  SceneRectInView	  [-469.91623006495161, 265.05970867244457, 1254.6666666666667, 522.0]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [0]
-	  IsTabbed		  [0]
+	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "380"
+	  LoadSaveID		  "400"
 	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-439.5, -264.5]
-	  SceneRectInView	  [-439.5, -264.5, 1882.0, 783.0]
+	  ZoomFactor		  [1.0565795800609072]
+	  Offset		  [-1679.2503033980583, -332.03527002427182]
+	  SceneRectInView	  [-1679.2503033980583, -332.03527002427182, 1781.2193567961165, 741.07054004854365]
 	}
 	Object {
 	  $ObjectID		  7
 	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "520"
-	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-416.39861007619311, -291.5]
-	  SceneRectInView	  [-416.39861007619311, -291.5, 1882.0, 783.0]
-	}
-	Object {
-	  $ObjectID		  8
-	  IsActive		  [0]
-	  IsTabbed		  [0]
+	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [1882.0, 783.0]
@@ -239,51 +226,40 @@ Model {
 	  SceneRectInView	  [-131.06746695514767, 211.32622117932493, 1505.6, 626.4]
 	}
 	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "435"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.0213124315785136]
+	  Offset		  [-354.08056678642185, 256.43078586811396]
+	  SceneRectInView	  [-354.08056678642185, 256.43078586811396, 1842.7270067507457, 766.66059845155883]
+	}
+	Object {
 	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "543"
+	  LoadSaveID		  "818"
 	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.2438220757825371]
-	  Offset		  [-571.56251034768206, 222.74437086092718]
-	  SceneRectInView	  [-571.56251034768206, 222.74437086092718, 1513.0781456953641, 629.51125827814565]
+	  ZoomFactor		  [1.5]
+	  Offset		  [-128.67317708333337, -82.666666666666629]
+	  SceneRectInView	  [-128.67317708333337, -82.666666666666629, 1254.6666666666667, 522.0]
 	}
 	Object {
 	  $ObjectID		  10
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "582"
+	  LoadSaveID		  "536"
 	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.2868520859671302]
-	  Offset		  [-438.741772276255, -278.96153846153845]
-	  SceneRectInView	  [-438.741772276255, -278.96153846153845, 1462.48354455251, 608.46153846153845]
+	  ZoomFactor		  [1.0689007499493277]
+	  Offset		  [-17.747315341867477, -64.264126972087411]
+	  SceneRectInView	  [-17.747315341867477, -64.264126972087411, 1760.6873230177994, 732.52825394417482]
 	}
 	Object {
 	  $ObjectID		  11
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "530"
-	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.4210610570685518]
-	  Offset		  [-415.68551481849653, -280.59896424106626]
-	  SceneRectInView	  [-415.68551481849653, -280.59896424106626, 1324.3625181611128, 550.99673311378922]
-	}
-	Object {
-	  $ObjectID		  12
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "StateflowChart"
-	  LoadSaveID		  "399"
-	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-152.41084680079143, -73.137565963060666]
-	  SceneRectInView	  [-152.41084680079143, -73.137565963060666, 1505.6, 626.4]
-	}
-	Object {
-	  $ObjectID		  13
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -294,40 +270,84 @@ Model {
 	  SceneRectInView	  [-423.29296875, -296.0, 1882.0, 783.0]
 	}
 	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "380"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-439.5, -264.5]
+	  SceneRectInView	  [-439.5, -264.5, 1882.0, 783.0]
+	}
+	Object {
+	  $ObjectID		  13
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "773"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.4848293299620732]
+	  Offset		  [-283.85615055608775, 1.6666666666666856]
+	  SceneRectInView	  [-283.85615055608775, 1.6666666666666856, 1267.4857386121755, 527.33333333333337]
+	}
+	Object {
 	  $ObjectID		  14
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "400"
+	  LoadSaveID		  "814"
 	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-1057.1574777815824, -254.62626830138524]
-	  SceneRectInView	  [-1057.1574777815824, -254.62626830138524, 1505.6, 626.4]
+	  ZoomFactor		  [1.5]
+	  Offset		  [-191.17317708333337, -10.666666666666629]
+	  SceneRectInView	  [-191.17317708333337, -10.666666666666629, 1254.6666666666667, 522.0]
 	}
 	Object {
 	  $ObjectID		  15
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "722"
+	  LoadSaveID		  "785"
 	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-621.0, -246.5]
-	  SceneRectInView	  [-621.0, -246.5, 1882.0, 783.0]
+	  ZoomFactor		  [1.9599999999999995]
+	  Offset		  [-187.60204081632662, -125.98979591836741]
+	  SceneRectInView	  [-187.60204081632662, -125.98979591836741, 960.20408163265324, 399.48979591836746]
 	}
 	Object {
 	  $ObjectID		  16
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "740"
+	  LoadSaveID		  "867"
 	  Extents		  [1882.0, 783.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-622.32421875, -246.0]
-	  SceneRectInView	  [-622.32421875, -246.0, 1882.0, 783.0]
+	  ZoomFactor		  [7.8569725864123958]
+	  Offset		  [2.2493932038835, 8.6716474514563089]
+	  SceneRectInView	  [2.2493932038835, 8.6716474514563089, 239.532463592233, 99.656705097087382]
 	}
 	Object {
 	  $ObjectID		  17
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "530"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.3898050974512743]
+	  Offset		  [-734.07335490830633, -288.19417475728153]
+	  SceneRectInView	  [-734.07335490830633, -288.19417475728153, 1354.1467098166127, 563.38834951456306]
+	}
+	Object {
+	  $ObjectID		  18
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "827"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.840526768887131]
+	  Offset		  [-37.6065180016181, -74.7108426881068]
+	  SceneRectInView	  [-37.6065180016181, -74.7108426881068, 1022.5333485032362, 425.42168537621359]
+	}
+	Object {
+	  $ObjectID		  19
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -338,18 +358,84 @@ Model {
 	  SceneRectInView	  [-257.24053030303037, -154.96969696969697, 1140.6060606060607, 474.54545454545456]
 	}
 	Object {
-	  $ObjectID		  18
+	  $ObjectID		  20
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "773"
-	  Extents		  [1882.0, 791.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [-277.44661458333337, 1.6666666666666856]
-	  SceneRectInView	  [-277.44661458333337, 1.6666666666666856, 1254.6666666666667, 527.33333333333337]
+	  LoadSaveID		  "582"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.2868520859671302]
+	  Offset		  [-438.741772276255, -278.96153846153845]
+	  SceneRectInView	  [-438.741772276255, -278.96153846153845, 1462.48354455251, 608.46153846153845]
 	}
 	Object {
-	  $ObjectID		  19
+	  $ObjectID		  21
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "583"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.2]
+	  Offset		  [-377.45572916666674, 110.16666666666669]
+	  SceneRectInView	  [-377.45572916666674, 110.16666666666669, 1568.3333333333335, 652.5]
+	}
+	Object {
+	  $ObjectID		  22
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "493"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.9797724399494312]
+	  Offset		  [437.42630439853571, 163.48503657632153]
+	  SceneRectInView	  [437.42630439853571, 163.48503657632153, 950.61430395913146, 395.5]
+	}
+	Object {
+	  $ObjectID		  23
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "520"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-416.39861007619311, -291.5]
+	  SceneRectInView	  [-416.39861007619311, -291.5, 1882.0, 783.0]
+	}
+	Object {
+	  $ObjectID		  24
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "StateflowChart"
+	  LoadSaveID		  "399"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-152.41084680079143, -73.137565963060666]
+	  SceneRectInView	  [-152.41084680079143, -73.137565963060666, 1505.6, 626.4]
+	}
+	Object {
+	  $ObjectID		  25
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "722"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-621.0, -246.5]
+	  SceneRectInView	  [-621.0, -246.5, 1882.0, 783.0]
+	}
+	Object {
+	  $ObjectID		  26
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "740"
+	  Extents		  [1882.0, 783.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-622.32421875, -246.0]
+	  SceneRectInView	  [-622.32421875, -246.0, 1882.0, 783.0]
+	}
+	Object {
+	  $ObjectID		  27
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -360,7 +446,7 @@ Model {
 	  SceneRectInView	  [-44.532789437269571, 35.31433946814667, 1505.6, 632.8]
 	}
 	Object {
-	  $ObjectID		  20
+	  $ObjectID		  28
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -371,7 +457,7 @@ Model {
 	  SceneRectInView	  [-257.56433718607309, -1.18578818930348, 1254.6666666666667, 527.33333333333337]
 	}
 	Object {
-	  $ObjectID		  21
+	  $ObjectID		  29
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -382,7 +468,7 @@ Model {
 	  SceneRectInView	  [-691.0, -285.0, 1882.0, 791.0]
 	}
 	Object {
-	  $ObjectID		  22
+	  $ObjectID		  30
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -393,7 +479,7 @@ Model {
 	  SceneRectInView	  [-691.0, -285.0, 1882.0, 791.0]
 	}
 	Object {
-	  $ObjectID		  23
+	  $ObjectID		  31
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -404,7 +490,7 @@ Model {
 	  SceneRectInView	  [-424.56144044300208, -229.05390800168158, 1515.8494433860042, 637.10781600336315]
 	}
 	Object {
-	  $ObjectID		  24
+	  $ObjectID		  32
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -415,29 +501,7 @@ Model {
 	  SceneRectInView	  [-560.41037108342141, 660.98413537810688, 1346.0629296668428, 565.74695928080371]
 	}
 	Object {
-	  $ObjectID		  25
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "435"
-	  Extents		  [1882.0, 791.0]
-	  ZoomFactor		  [1.0317472967798265]
-	  Offset		  [-344.76209898995796, 256.4307858681139]
-	  SceneRectInView	  [-344.76209898995796, 256.4307858681139, 1824.0900711578179, 766.66059845155894]
-	}
-	Object {
-	  $ObjectID		  26
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "493"
-	  Extents		  [1882.0, 791.0]
-	  ZoomFactor		  [2.0]
-	  Offset		  [442.23345637810144, 163.48503657632153]
-	  SceneRectInView	  [442.23345637810144, 163.48503657632153, 941.0, 395.5]
-	}
-	Object {
-	  $ObjectID		  27
+	  $ObjectID		  33
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -448,7 +512,7 @@ Model {
 	  SceneRectInView	  [-680.94921875, -318.5, 1882.0, 791.0]
 	}
 	Object {
-	  $ObjectID		  28
+	  $ObjectID		  34
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -459,7 +523,7 @@ Model {
 	  SceneRectInView	  [-474.77421874999948, -70.335278427432272, 1505.6, 489.6]
 	}
 	Object {
-	  $ObjectID		  29
+	  $ObjectID		  35
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "StateflowChart"
@@ -470,7 +534,7 @@ Model {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  30
+	  $ObjectID		  36
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -481,7 +545,7 @@ Model {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  31
+	  $ObjectID		  37
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -492,7 +556,7 @@ Model {
 	  SceneRectInView	  [-813.25, -481.76562318205833, 2352.5, 765.0]
 	}
 	Object {
-	  $ObjectID		  32
+	  $ObjectID		  38
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -503,7 +567,7 @@ Model {
 	  SceneRectInView	  [-691.0, -196.0, 1882.0, 612.0]
 	}
 	Object {
-	  $ObjectID		  33
+	  $ObjectID		  39
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "StudioAdapterBlock"
@@ -519,20 +583,7 @@ Model {
 	Type			"Simulink.DockComponentInfo"
 	Dimension		2
 	Object {
-	  $ObjectID		  34
-	  Type			  "Simulink:Editor:ReferencedFiles"
-	  ID			  "Referenced Files"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
-	  Floating		  [0]
-	  DockPosition		  "Left"
-	  Width			  [640]
-	  Height		  [480]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  35
+	  $ObjectID		  40
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [0]
@@ -540,6 +591,19 @@ Model {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
+	  Width			  [640]
+	  Height		  [480]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  41
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
 	  Width			  [640]
 	  Height		  [480]
 	  Minimized		  "Unset"
@@ -571,9 +635,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Administrateur"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Dec 13 16:50:42 2023"
-  RTWModifiedTimeStamp	  624385238
-  ModelVersionFormat	  "%<AutoIncrement:10.39>"
+  LastModifiedDate	  "Wed Dec 13 18:30:09 2023"
+  RTWModifiedTimeStamp	  624393005
+  ModelVersionFormat	  "%<AutoIncrement:10.54>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -631,7 +695,7 @@ Model {
   TryForcingSFcnDF	  off
   Object {
     $PropName		    "DataLoggingOverride"
-    $ObjectID		    36
+    $ObjectID		    42
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "Tello_Position_Control"
     overrideMode_	    [0.0]
@@ -678,7 +742,7 @@ Model {
     Type		    "Handle"
     Dimension		    10
     Simulink.ConfigSet {
-      $ObjectID		      37
+      $ObjectID		      43
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -686,7 +750,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  38
+	  $ObjectID		  44
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -734,7 +798,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  39
+	  $ObjectID		  45
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -776,7 +840,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  40
+	  $ObjectID		  46
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -851,7 +915,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  41
+	  $ObjectID		  47
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -973,7 +1037,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  42
+	  $ObjectID		  48
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1023,7 +1087,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  43
+	  $ObjectID		  49
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1043,7 +1107,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  44
+	  $ObjectID		  50
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1092,7 +1156,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  45
+	  $ObjectID		  51
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -1202,7 +1266,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      46
+	      $ObjectID		      52
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -1292,7 +1356,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      47
+	      $ObjectID		      53
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -1386,7 +1450,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  48
+		  $ObjectID		  54
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -1561,7 +1625,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  49
+	  $ObjectID		  55
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -1607,7 +1671,7 @@ Model {
       ExtraOptions	      ""
     }
     Simulink.ConfigSet {
-      $ObjectID		      50
+      $ObjectID		      56
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -1615,7 +1679,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  51
+	  $ObjectID		  57
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -1663,7 +1727,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  52
+	  $ObjectID		  58
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1705,7 +1769,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  53
+	  $ObjectID		  59
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -1780,7 +1844,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  54
+	  $ObjectID		  60
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -1902,7 +1966,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  55
+	  $ObjectID		  61
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1952,7 +2016,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  56
+	  $ObjectID		  62
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1972,7 +2036,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  57
+	  $ObjectID		  63
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -2021,7 +2085,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  58
+	  $ObjectID		  64
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -2131,7 +2195,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      59
+	      $ObjectID		      65
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -2221,7 +2285,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      60
+	      $ObjectID		      66
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -2315,7 +2379,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  61
+		  $ObjectID		  67
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -2482,7 +2546,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  62
+	  $ObjectID		  68
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -2528,7 +2592,7 @@ Model {
       ExtraOptions	      ""
     }
     Simulink.ConfigSet {
-      $ObjectID		      63
+      $ObjectID		      69
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -2536,7 +2600,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  64
+	  $ObjectID		  70
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -2584,7 +2648,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  65
+	  $ObjectID		  71
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -2626,7 +2690,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  66
+	  $ObjectID		  72
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -2701,7 +2765,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  67
+	  $ObjectID		  73
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -2823,7 +2887,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  68
+	  $ObjectID		  74
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -2873,7 +2937,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  69
+	  $ObjectID		  75
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -2893,7 +2957,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  70
+	  $ObjectID		  76
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -2942,7 +3006,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  71
+	  $ObjectID		  77
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -3052,7 +3116,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      72
+	      $ObjectID		      78
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -3142,7 +3206,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      73
+	      $ObjectID		      79
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -3236,7 +3300,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  74
+		  $ObjectID		  80
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -3403,7 +3467,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  75
+	  $ObjectID		  81
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -3449,7 +3513,7 @@ Model {
       ExtraOptions	      ""
     }
     Simulink.ConfigSet {
-      $ObjectID		      76
+      $ObjectID		      82
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -3457,7 +3521,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  77
+	  $ObjectID		  83
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -3505,7 +3569,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  78
+	  $ObjectID		  84
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -3547,7 +3611,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  79
+	  $ObjectID		  85
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -3622,7 +3686,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  80
+	  $ObjectID		  86
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -3744,7 +3808,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  81
+	  $ObjectID		  87
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -3794,7 +3858,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  82
+	  $ObjectID		  88
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -3814,7 +3878,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  83
+	  $ObjectID		  89
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -3863,7 +3927,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  84
+	  $ObjectID		  90
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -3973,7 +4037,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      85
+	      $ObjectID		      91
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -4063,7 +4127,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      86
+	      $ObjectID		      92
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -4157,7 +4221,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  87
+		  $ObjectID		  93
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -4324,7 +4388,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  88
+	  $ObjectID		  94
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -4370,7 +4434,7 @@ Model {
       ExtraOptions	      ""
     }
     Simulink.ConfigSet {
-      $ObjectID		      89
+      $ObjectID		      95
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -4378,7 +4442,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  90
+	  $ObjectID		  96
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -4426,7 +4490,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  91
+	  $ObjectID		  97
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -4468,7 +4532,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  92
+	  $ObjectID		  98
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -4543,7 +4607,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  93
+	  $ObjectID		  99
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -4665,7 +4729,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  94
+	  $ObjectID		  100
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -4715,7 +4779,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  95
+	  $ObjectID		  101
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -4735,7 +4799,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  96
+	  $ObjectID		  102
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -4784,7 +4848,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  97
+	  $ObjectID		  103
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -4894,7 +4958,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      98
+	      $ObjectID		      104
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -4984,7 +5048,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      99
+	      $ObjectID		      105
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -5078,7 +5142,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  100
+		  $ObjectID		  106
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -5245,7 +5309,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  101
+	  $ObjectID		  107
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -5291,7 +5355,7 @@ Model {
       ExtraOptions	      ""
     }
     Simulink.ConfigSet {
-      $ObjectID		      102
+      $ObjectID		      108
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -5299,7 +5363,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  103
+	  $ObjectID		  109
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -5347,7 +5411,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  104
+	  $ObjectID		  110
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -5389,7 +5453,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  105
+	  $ObjectID		  111
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -5464,7 +5528,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  106
+	  $ObjectID		  112
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -5586,7 +5650,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  107
+	  $ObjectID		  113
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -5636,7 +5700,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  108
+	  $ObjectID		  114
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -5656,7 +5720,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  109
+	  $ObjectID		  115
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -5705,7 +5769,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  110
+	  $ObjectID		  116
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -5815,7 +5879,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      111
+	      $ObjectID		      117
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -5905,7 +5969,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      112
+	      $ObjectID		      118
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -5999,7 +6063,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  113
+		  $ObjectID		  119
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -6166,7 +6230,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  114
+	  $ObjectID		  120
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -6212,7 +6276,7 @@ Model {
       ExtraOptions	      ""
     }
     Simulink.ConfigSet {
-      $ObjectID		      115
+      $ObjectID		      121
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -6220,7 +6284,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  116
+	  $ObjectID		  122
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -6268,7 +6332,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  117
+	  $ObjectID		  123
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -6310,7 +6374,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  118
+	  $ObjectID		  124
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -6385,7 +6449,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  119
+	  $ObjectID		  125
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -6507,7 +6571,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  120
+	  $ObjectID		  126
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -6557,7 +6621,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  121
+	  $ObjectID		  127
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -6577,7 +6641,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  122
+	  $ObjectID		  128
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -6626,7 +6690,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  123
+	  $ObjectID		  129
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -6736,7 +6800,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      124
+	      $ObjectID		      130
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -6826,7 +6890,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      125
+	      $ObjectID		      131
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -6920,7 +6984,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  126
+		  $ObjectID		  132
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -7087,7 +7151,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  127
+	  $ObjectID		  133
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -7133,7 +7197,7 @@ Model {
       ExtraOptions	      ""
     }
     Simulink.ConfigSet {
-      $ObjectID		      128
+      $ObjectID		      134
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -7141,7 +7205,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  129
+	  $ObjectID		  135
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -7189,7 +7253,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  130
+	  $ObjectID		  136
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -7231,7 +7295,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  131
+	  $ObjectID		  137
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -7306,7 +7370,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  132
+	  $ObjectID		  138
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -7428,7 +7492,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  133
+	  $ObjectID		  139
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -7478,7 +7542,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  134
+	  $ObjectID		  140
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -7498,7 +7562,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  135
+	  $ObjectID		  141
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -7547,7 +7611,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  136
+	  $ObjectID		  142
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -7657,7 +7721,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      137
+	      $ObjectID		      143
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -7747,7 +7811,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      138
+	      $ObjectID		      144
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -7841,7 +7905,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  139
+		  $ObjectID		  145
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -8008,7 +8072,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  140
+	  $ObjectID		  146
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -8054,7 +8118,7 @@ Model {
       ExtraOptions	      ""
     }
     Simulink.ConfigSet {
-      $ObjectID		      141
+      $ObjectID		      147
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -8062,7 +8126,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  142
+	  $ObjectID		  148
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -8110,7 +8174,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  143
+	  $ObjectID		  149
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -8152,7 +8216,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  144
+	  $ObjectID		  150
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -8227,7 +8291,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  145
+	  $ObjectID		  151
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -8349,7 +8413,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  146
+	  $ObjectID		  152
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -8399,7 +8463,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  147
+	  $ObjectID		  153
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -8419,7 +8483,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  148
+	  $ObjectID		  154
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -8468,7 +8532,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  149
+	  $ObjectID		  155
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -8578,7 +8642,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      150
+	      $ObjectID		      156
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -8668,7 +8732,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      151
+	      $ObjectID		      157
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -8762,7 +8826,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  152
+		  $ObjectID		  158
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -8929,7 +8993,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  153
+	  $ObjectID		  159
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -8975,7 +9039,7 @@ Model {
       ExtraOptions	      ""
     }
     Simulink.ConfigSet {
-      $ObjectID		      154
+      $ObjectID		      160
       Version		      "21.0.0"
       DisabledProps	      []
       Description	      ""
@@ -8983,7 +9047,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  155
+	  $ObjectID		  161
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -9031,7 +9095,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  156
+	  $ObjectID		  162
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -9073,7 +9137,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  157
+	  $ObjectID		  163
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -9148,7 +9212,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  158
+	  $ObjectID		  164
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -9270,7 +9334,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  159
+	  $ObjectID		  165
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -9320,7 +9384,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  160
+	  $ObjectID		  166
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -9340,7 +9404,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  161
+	  $ObjectID		  167
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -9389,7 +9453,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  162
+	  $ObjectID		  168
 	  Version		  "21.0.0"
 	  Array {
 	    Type		    "Cell"
@@ -9499,7 +9563,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      163
+	      $ObjectID		      169
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -9589,7 +9653,7 @@ Model {
 	    }
 	    Simulink.STFCustomTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      164
+	      $ObjectID		      170
 	      Version		      "21.0.0"
 	      Array {
 		Type			"Cell"
@@ -9682,7 +9746,7 @@ Model {
 		Dimension		1
 		Simulink.GRTTargetCC {
 		  $BackupClass		  "Simulink.TargetCC"
-		  $ObjectID		  165
+		  $ObjectID		  171
 		  Version		  "21.0.0"
 		  Array {
 		    Type		    "Cell"
@@ -9848,7 +9912,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  166
+	  $ObjectID		  172
 	  Version		  "21.0.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -9897,11 +9961,11 @@ Model {
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    154
+    $ObjectID		    160
   }
   Object {
     $PropName		    "DataTransfer"
-    $ObjectID		    167
+    $ObjectID		    173
     $ClassName		    "Simulink.GlobalDataTransfer"
     DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
     DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
@@ -9968,6 +10032,17 @@ Model {
   BlockParameterDefaults {
     Block {
       BlockType		      ASCIIToString
+    }
+    Block {
+      BlockType		      Abs
+      ZeroCross		      on
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
     }
     Block {
       BlockType		      Bias
@@ -10322,7 +10397,7 @@ Model {
     Name		    "Tello_Position_Control"
     Location		    [-8, -8, 1928, 1040]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -10338,7 +10413,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "125"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "849"
+    SIDHighWatermark	    "872"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -10359,7 +10434,7 @@ Model {
 	Name			"JOYSTICK"
 	Location		[-8, -8, 1928, 1040]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -10373,7 +10448,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"125"
+	ZoomFactor		"106"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Logic
@@ -10872,9 +10947,9 @@ Model {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Initialization\nand Conditioning"
-	    Location		    [-8, -8, 1928, 1048]
+	    Location		    [-8, -8, 1928, 1040]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-	    Open		    off
+	    Open		    on
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -10888,7 +10963,7 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "103"
+	    ZoomFactor		    "102"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -12039,7 +12114,7 @@ Model {
 	  BackgroundColor	  "[0.901961, 0.901961, 1.000000]"
 	  DropShadow		  on
 	  AnnotationType	  "area_annotation"
-	  ZOrder		  7
+	  ZOrder		  8
 	  FontSize		  12
 	}
 	Annotation {
@@ -12073,8 +12148,8 @@ Model {
       BlockType		      SubSystem
       Name		      "Position control"
       SID		      "543"
-      Ports		      [5, 1]
-      Position		      [440, 512, 690, 658]
+      Ports		      [6, 1]
+      Position		      [440, 514, 690, 661]
       ZOrder		      1737
       RequestExecContextInheritance off
       ContentPreviewEnabled   on
@@ -12082,7 +12157,7 @@ Model {
 	Name			"Position control"
 	Location		[-8, -8, 1928, 1040]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -12096,20 +12171,20 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"124"
+	ZoomFactor		"150"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
 	  Name			  "Triggers (0,1) [4]1"
 	  SID			  "752"
-	  Position		  [80, 393, 110, 407]
+	  Position		  [-50, 393, -20, 407]
 	  ZOrder		  100000
 	}
 	Block {
 	  BlockType		  Inport
 	  Name			  "pose desired m, rad [4]1"
 	  SID			  "753"
-	  Position		  [-265, 358, -235, 372]
+	  Position		  [-295, 303, -265, 317]
 	  ZOrder		  100000
 	  Port			  "2"
 	}
@@ -12117,7 +12192,7 @@ Model {
 	  BlockType		  Inport
 	  Name			  "pose mesured m, rad [4]1"
 	  SID			  "754"
-	  Position		  [-265, 628, -235, 642]
+	  Position		  [-195, 628, -165, 642]
 	  ZOrder		  100000
 	  Port			  "3"
 	}
@@ -12138,13 +12213,59 @@ Model {
 	  Port			  "5"
 	}
 	Block {
+	  BlockType		  Inport
+	  Name			  "is_tracking"
+	  SID			  "854"
+	  Position		  [105, 248, 135, 262]
+	  ZOrder		  100000
+	  Port			  "6"
+	}
+	Block {
 	  BlockType		  Display
 	  Name			  "Display1"
 	  SID			  "849"
 	  Ports			  [1]
-	  Position		  [-370, 234, -280, 346]
+	  Position		  [-335, 359, -245, 471]
 	  ZOrder		  100000
 	  BlockMirror		  on
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display10"
+	  SID			  "871"
+	  Ports			  [1]
+	  Position		  [255, 199, 285, 221]
+	  ZOrder		  100000
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display2"
+	  SID			  "850"
+	  Ports			  [1]
+	  Position		  [-26, 215, 86, 305]
+	  ZOrder		  100000
+	  BlockRotation		  270
+	  NameLocation		  "left"
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display3"
+	  SID			  "851"
+	  Ports			  [1]
+	  Position		  [460, 234, 550, 346]
+	  ZOrder		  100000
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display4"
+	  SID			  "856"
+	  Ports			  [1]
+	  Position		  [240, 404, 270, 426]
+	  ZOrder		  100000
 	  Decimation		  "1"
 	}
 	Block {
@@ -12152,7 +12273,16 @@ Model {
 	  Name			  "Display5"
 	  SID			  "758"
 	  Ports			  [1]
-	  Position		  [280, 369, 310, 391]
+	  Position		  [240, 434, 270, 456]
+	  ZOrder		  100000
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display6"
+	  SID			  "857"
+	  Ports			  [1]
+	  Position		  [240, 459, 270, 481]
 	  ZOrder		  100000
 	  Decimation		  "1"
 	}
@@ -12161,7 +12291,7 @@ Model {
 	  Name			  "Display7"
 	  SID			  "760"
 	  Ports			  [1]
-	  Position		  [400, 489, 490, 601]
+	  Position		  [410, 514, 500, 626]
 	  ZOrder		  100000
 	  Decimation		  "1"
 	}
@@ -12170,9 +12300,18 @@ Model {
 	  Name			  "Display8"
 	  SID			  "761"
 	  Ports			  [1]
-	  Position		  [-370, 664, -280, 776]
+	  Position		  [-335, 664, -245, 776]
 	  ZOrder		  100000
 	  BlockMirror		  on
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Display9"
+	  SID			  "863"
+	  Ports			  [1]
+	  Position		  [255, 244, 285, 266]
+	  ZOrder		  100000
 	  Decimation		  "1"
 	}
 	Block {
@@ -12273,10 +12412,121 @@ Model {
 	  DisplayOption		  "bar"
 	}
 	Block {
+	  BlockType		  SubSystem
+	  Name			  "NOT"
+	  SID			  "867"
+	  Ports			  [1, 1]
+	  Position		  [160, 237, 200, 273]
+	  ZOrder		  100000
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "NOT"
+	    Location		    [-8, -8, 1928, 1040]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "786"
+	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      "868"
+	      Position		      [10, 23, 40, 37]
+	      ZOrder		      100000
+	    }
+	    Block {
+	      BlockType		      Abs
+	      Name		      "Abs"
+	      SID		      "864"
+	      Position		      [140, 50, 170, 80]
+	      ZOrder		      100000
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "866"
+	      Position		      [10, 55, 40, 85]
+	      ZOrder		      100000
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum"
+	      SID		      "872"
+	      Ports		      [2, 1]
+	      Position		      [80, 55, 100, 75]
+	      ZOrder		      100000
+	      IconShape		      "rectangular"
+	      Inputs		      "+-"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "869"
+	      Position		      [210, 58, 240, 72]
+	      ZOrder		      100000
+	    }
+	    Line {
+	      ZOrder		      277
+	      SrcBlock		      "Abs"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      278
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      Points		      [10, 0; 0, 30]
+	      DstBlock		      "Sum"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      279
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "Sum"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      280
+	      SrcBlock		      "Sum"
+	      SrcPort		      1
+	      DstBlock		      "Abs"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Logic
+	  Name			  "OR"
+	  SID			  "870"
+	  Ports			  [2, 1]
+	  Position		  [180, 379, 210, 411]
+	  ZOrder		  100000
+	  Operator		  "OR"
+	  IconShape		  "distinctive"
+	  AllPortsSameDT	  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
 	  BlockType		  Saturate
 	  Name			  "Saturation1"
 	  SID			  "768"
-	  Position		  [380, 385, 410, 415]
+	  Position		  [380, 380, 410, 410]
 	  ZOrder		  100000
 	  UpperLimit		  "1"
 	  LowerLimit		  "-1"
@@ -12346,7 +12596,7 @@ Model {
 	  Name			  "Selector2"
 	  SID			  "772"
 	  Ports			  [1, 1]
-	  Position		  [190, 381, 230, 419]
+	  Position		  [60, 381, 100, 419]
 	  ZOrder		  100000
 	  InputPortWidth	  "4"
 	  IndexOptions		  "Index vector (dialog)"
@@ -12364,7 +12614,7 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "Subsystem1"
-	    Location		    [-8, -8, 1928, 1048]
+	    Location		    [-8, -8, 1928, 1040]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -12380,7 +12630,7 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "150"
+	    ZoomFactor		    "148"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -12410,7 +12660,7 @@ Model {
 	      Name		      "Controller"
 	      SID		      "777"
 	      Ports		      [2, 2]
-	      Position		      [340, 197, 475, 313]
+	      Position		      [340, 199, 450, 306]
 	      ZOrder		      100000
 	      LibraryVersion	      "1.2208"
 	      SourceBlock	      "quarc_library/Continuous/Controller"
@@ -12474,7 +12724,7 @@ Model {
 	      Name		      "Selector2"
 	      SID		      "782"
 	      Ports		      [1, 1]
-	      Position		      [125, 218, 165, 232]
+	      Position		      [130, 218, 170, 232]
 	      ZOrder		      100000
 	      InputPortWidth	      "4"
 	      IndexOptions	      "Index vector (dialog)"
@@ -12498,7 +12748,7 @@ Model {
 	      Name		      "Selector4"
 	      SID		      "784"
 	      Ports		      [1, 1]
-	      Position		      [130, 243, 170, 257]
+	      Position		      [130, 273, 170, 287]
 	      ZOrder		      100000
 	      InputPortWidth	      "4"
 	      IndexOptions	      "Index vector (dialog)"
@@ -12510,14 +12760,13 @@ Model {
 	      Name		      "Subsystem1"
 	      SID		      "785"
 	      Ports		      [3, 1]
-	      Position		      [325, 121, 435, 179]
+	      Position		      [340, 121, 450, 179]
 	      ZOrder		      100000
-	      Commented		      "on"
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
 		Name			"Subsystem1"
-		Location		[-8, -8, 1928, 1048]
+		Location		[-8, -8, 1928, 1040]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -12539,7 +12788,7 @@ Model {
 		  BlockType		  Inport
 		  Name			  "In1"
 		  SID			  "786"
-		  Position		  [20, 28, 50, 42]
+		  Position		  [25, 28, 55, 42]
 		  ZOrder		  100000
 		}
 		Block {
@@ -12676,7 +12925,7 @@ Model {
 	      BlockType		      Terminator
 	      Name		      "Terminator"
 	      SID		      "848"
-	      Position		      [510, 275, 530, 295]
+	      Position		      [510, 270, 530, 290]
 	      ZOrder		      100000
 	    }
 	    Block {
@@ -13032,7 +13281,7 @@ Model {
 	      Points		      [72, 0]
 	      Branch {
 		ZOrder			9
-		Points			[0, -105]
+		Points			[0, -75]
 		DstBlock		"Selector4"
 		DstPort			1
 	      }
@@ -13061,9 +13310,9 @@ Model {
 	      ZOrder		      13
 	      SrcBlock		      "Selector2"
 	      SrcPort		      1
-	      Points		      [75, 0]
+	      Points		      [17, 0]
 	      Branch {
-		ZOrder			14
+		ZOrder			23
 		DstBlock		"Controller"
 		DstPort			1
 	      }
@@ -13080,31 +13329,23 @@ Model {
 	      SrcPort		      1
 	      Points		      [33, 0]
 	      Branch {
-		ZOrder			17
-		Points			[0, 18; 85, 0; 0, 17]
-		DstBlock		"Controller"
-		DstPort			2
-	      }
-	      Branch {
-		ZOrder			18
-		Points			[0, -100]
+		ZOrder			22
+		Points			[0, -130]
 		DstBlock		"Subsystem1"
 		DstPort			2
 	      }
+	      Branch {
+		ZOrder			17
+		DstBlock		"Controller"
+		DstPort			2
+	      }
 	    }
 	    Line {
-	      ZOrder		      19
-	      SrcBlock		      "Controller"
+	      ZOrder		      24
+	      SrcBlock		      "Subsystem1"
 	      SrcPort		      1
+	      Points		      [41, 0; 0, 75]
 	      DstBlock		      "Gain"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      20
-	      SrcBlock		      "Gain"
-	      SrcPort		      1
-	      Points		      [10, 0; 0, 60]
-	      DstBlock		      "Mux"
 	      DstPort		      1
 	    }
 	    Line {
@@ -13114,13 +13355,21 @@ Model {
 	      DstBlock		      "Terminator"
 	      DstPort		      1
 	    }
+	    Line {
+	      ZOrder		      27
+	      SrcBlock		      "Gain"
+	      SrcPort		      1
+	      Points		      [15, 0; 0, 60]
+	      DstBlock		      "Mux"
+	      DstPort		      1
+	    }
 	  }
 	}
 	Block {
 	  BlockType		  Switch
 	  Name			  "Switch1"
 	  SID			  "812"
-	  Position		  [330, 345, 360, 455]
+	  Position		  [320, 340, 350, 450]
 	  ZOrder		  100000
 	  Criteria		  "u2 > Threshold"
 	  InputSameDT		  off
@@ -13148,12 +13397,12 @@ Model {
 	  file_format		  "MAT-file v.5"
 	  options		  "No header or footer"
 	  append		  off
-	  final_file_name	  "saved_data/Tello_Position_Control/Tello_Control13-Dec-2023 16-16-55.mat"
+	  final_file_name	  "saved_data/Tello_Position_Control/Tello_Control13-Dec-2023 18-28-18.mat"
 	  bitrate		  "2000000"
 	}
 	Block {
 	  BlockType		  SubSystem
-	  Name			  "correction block1"
+	  Name			  "rotation correction block1"
 	  SID			  "814"
 	  Ports			  [2, 2]
 	  Position		  [120, 538, 250, 667]
@@ -13161,8 +13410,8 @@ Model {
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
 	  System {
-	    Name		    "correction block1"
-	    Location		    [-8, -8, 1928, 1048]
+	    Name		    "rotation correction block1"
+	    Location		    [-8, -8, 1928, 1040]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -13212,13 +13461,13 @@ Model {
 	      Name		      "Subsystem"
 	      SID		      "818"
 	      Ports		      [2, 2]
-	      Position		      [395, 255, 505, 455]
+	      Position		      [395, 255, 530, 455]
 	      ZOrder		      100000
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
 		Name			"Subsystem"
-		Location		[-8, -8, 1928, 1048]
+		Location		[-8, -8, 1928, 1040]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -13247,7 +13496,7 @@ Model {
 		  BlockType		  Inport
 		  Name			  "In2"
 		  SID			  "820"
-		  Position		  [20, 108, 50, 122]
+		  Position		  [70, 108, 100, 122]
 		  ZOrder		  100000
 		  Port			  "2"
 		}
@@ -13598,13 +13847,13 @@ Model {
 	      Name		      "Subsystem1"
 	      SID		      "827"
 	      Ports		      [2, 2]
-	      Position		      [395, 45, 505, 245]
+	      Position		      [395, 25, 530, 225]
 	      ZOrder		      100000
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
 		Name			"Subsystem1"
-		Location		[-8, -8, 1928, 1048]
+		Location		[-8, -8, 1928, 1040]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -13620,7 +13869,7 @@ Model {
 		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 		TiledPageScale		1
 		ShowPageBoundaries	off
-		ZoomFactor		"250"
+		ZoomFactor		"184"
 		SimulinkSubDomain	"Simulink"
 		Block {
 		  BlockType		  Inport
@@ -13989,13 +14238,13 @@ Model {
 	      Points		      [128, 0]
 	      Branch {
 		ZOrder			3
-		Points			[0, -55]
+		Points			[0, -75]
 		DstBlock		"Subsystem1"
 		DstPort			1
 	      }
 	      Branch {
 		ZOrder			4
-		Points			[86, 0; 0, 155]
+		Points			[0, 155]
 		DstBlock		"Subsystem"
 		DstPort			1
 	      }
@@ -14007,7 +14256,7 @@ Model {
 	      Points		      [133, 0]
 	      Branch {
 		ZOrder			6
-		Points			[0, -40]
+		Points			[0, -60]
 		DstBlock		"Subsystem1"
 		DstPort			2
 	      }
@@ -14029,7 +14278,7 @@ Model {
 	      ZOrder		      9
 	      SrcBlock		      "Subsystem"
 	      SrcPort		      1
-	      Points		      [144, 0; 0, -70]
+	      Points		      [119, 0; 0, -70]
 	      DstBlock		      "command rc [4]"
 	      DstPort		      1
 	    }
@@ -14039,7 +14288,7 @@ Model {
 	  BlockType		  Outport
 	  Name			  "command rc [4]1"
 	  SID			  "847"
-	  Position		  [440, 393, 470, 407]
+	  Position		  [440, 388, 470, 402]
 	  ZOrder		  100000
 	}
 	Line {
@@ -14072,6 +14321,7 @@ Model {
 	  ZOrder		  115
 	  SrcBlock		  "Switch1"
 	  SrcPort		  1
+	  Points		  [10, 0]
 	  DstBlock		  "Saturation1"
 	  DstPort		  1
 	}
@@ -14086,21 +14336,25 @@ Model {
 	  ZOrder		  119
 	  SrcBlock		  "pose desired m, rad [4]1"
 	  SrcPort		  1
-	  Points		  [75, 0]
+	  Points		  [57, 0]
 	  Branch {
-	    ZOrder		    118
-	    DstBlock		    "Mapping RC1"
-	    DstPort		    1
+	    ZOrder		    237
+	    Points		    [48, 0; 0, 50]
+	    Branch {
+	      ZOrder		      235
+	      DstBlock		      "Switch1"
+	      DstPort		      1
+	    }
+	    Branch {
+	      ZOrder		      231
+	      DstBlock		      "Mapping RC1"
+	      DstPort		      1
+	    }
 	  }
 	  Branch {
-	    ZOrder		    180
-	    Points		    [0, -75]
+	    ZOrder		    234
+	    Points		    [0, 105]
 	    DstBlock		    "Display1"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    117
-	    DstBlock		    "Switch1"
 	    DstPort		    1
 	  }
 	}
@@ -14108,17 +14362,26 @@ Model {
 	  ZOrder		  120
 	  SrcBlock		  "Triggers (0,1) [4]1"
 	  SrcPort		  1
-	  DstBlock		  "Selector2"
-	  DstPort		  1
+	  Points		  [45, 0]
+	  Branch {
+	    ZOrder		    258
+	    DstBlock		    "Display2"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    201
+	    DstBlock		    "Selector2"
+	    DstPort		    1
+	  }
 	}
 	Line {
 	  ZOrder		  123
-	  SrcBlock		  "correction block1"
+	  SrcBlock		  "rotation correction block1"
 	  SrcPort		  1
-	  Points		  [38, 0; 0, -25]
+	  Points		  [38, 0]
 	  Branch {
-	    ZOrder		    183
-	    Points		    [0, -110]
+	    ZOrder		    205
+	    Points		    [0, -140]
 	    DstBlock		    "Switch1"
 	    DstPort		    3
 	  }
@@ -14132,59 +14395,37 @@ Model {
 	  ZOrder		  124
 	  SrcBlock		  "Saturation1"
 	  SrcPort		  1
-	  DstBlock		  "command rc [4]1"
-	  DstPort		  1
+	  Points		  [6, 0]
+	  Branch {
+	    ZOrder		    223
+	    DstBlock		    "command rc [4]1"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    204
+	    Points		    [0, -105]
+	    DstBlock		    "Display3"
+	    DstPort		    1
+	  }
 	}
 	Line {
 	  ZOrder		  125
-	  SrcBlock		  "correction block1"
+	  SrcBlock		  "rotation correction block1"
 	  SrcPort		  2
 	  Points		  [118, 0; 0, 180]
 	  DstBlock		  "Mux"
 	  DstPort		  3
 	}
 	Line {
-	  ZOrder		  133
-	  SrcBlock		  "Selector2"
-	  SrcPort		  1
-	  Points		  [28, 0]
-	  Branch {
-	    ZOrder		    132
-	    Points		    [0, -20]
-	    DstBlock		    "Display5"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    131
-	    DstBlock		    "Switch1"
-	    DstPort		    2
-	  }
-	}
-	Line {
 	  ZOrder		  140
 	  SrcBlock		  "pose mesured m, rad [4]1"
 	  SrcPort		  1
-	  Points		  [13, 0]
+	  Points		  [50, 0]
 	  Branch {
-	    ZOrder		    139
-	    Points		    [42, 0]
+	    ZOrder		    218
+	    Points		    [0, -65]
 	    Branch {
-	      ZOrder		      171
-	      Points		      [0, 85]
-	      DstBlock		      "Display8"
-	      DstPort		      1
-	    }
-	    Branch {
-	      ZOrder		      137
-	      DstBlock		      "correction block1"
-	      DstPort		      2
-	    }
-	  }
-	  Branch {
-	    ZOrder		    136
-	    Points		    [0, -65; 37, 0]
-	    Branch {
-	      ZOrder		      135
+	      ZOrder		      220
 	      Points		      [0, -55]
 	      DstBlock		      "Scope1"
 	      DstPort		      2
@@ -14195,12 +14436,27 @@ Model {
 	      DstPort		      2
 	    }
 	  }
+	  Branch {
+	    ZOrder		    215
+	    Points		    [58, 0]
+	    Branch {
+	      ZOrder		      171
+	      Points		      [0, 85]
+	      DstBlock		      "Display8"
+	      DstPort		      1
+	    }
+	    Branch {
+	      ZOrder		      137
+	      DstBlock		      "rotation correction block1"
+	      DstPort		      2
+	    }
+	  }
 	}
 	Line {
 	  ZOrder		  141
 	  SrcBlock		  "Subsystem1"
 	  SrcPort		  1
-	  DstBlock		  "correction block1"
+	  DstBlock		  "rotation correction block1"
 	  DstPort		  1
 	}
 	Line {
@@ -14216,6 +14472,73 @@ Model {
 	  SrcPort		  1
 	  DstBlock		  "Mux"
 	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  133
+	  SrcBlock		  "Selector2"
+	  SrcPort		  1
+	  Points		  [42, 0]
+	  Branch {
+	    ZOrder		    272
+	    DstBlock		    "OR"
+	    DstPort		    2
+	  }
+	  Branch {
+	    ZOrder		    271
+	    Points		    [0, 45]
+	    DstBlock		    "Display5"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  267
+	  SrcBlock		  "is_tracking"
+	  SrcPort		  1
+	  Points		  [5, 0]
+	  Branch {
+	    ZOrder		    278
+	    Points		    [0, -45]
+	    DstBlock		    "Display10"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    277
+	    DstBlock		    "NOT"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  268
+	  SrcBlock		  "OR"
+	  SrcPort		  1
+	  Points		  [10, 0]
+	  Branch {
+	    ZOrder		    270
+	    DstBlock		    "Switch1"
+	    DstPort		    2
+	  }
+	  Branch {
+	    ZOrder		    269
+	    DstBlock		    "Display4"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  273
+	  SrcBlock		  "NOT"
+	  SrcPort		  1
+	  Points		  [19, 0]
+	  Branch {
+	    ZOrder		    276
+	    Points		    [0, 69; -60, 0; 0, 66]
+	    DstBlock		    "OR"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    275
+	    DstBlock		    "Display9"
+	    DstPort		    1
+	  }
 	}
       }
     }
@@ -14361,7 +14684,7 @@ Model {
       BlockType		      SubSystem
       Name		      "Subsystem4"
       SID		      "536"
-      Ports		      [2, 3]
+      Ports		      [2, 4]
       Position		      [795, 253, 965, 697]
       ZOrder		      1735
       RequestExecContextInheritance off
@@ -14370,7 +14693,7 @@ Model {
 	Name			"Subsystem4"
 	Location		[-8, -8, 1928, 1040]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -14573,8 +14896,8 @@ Model {
 	  BlockType		  SubSystem
 	  Name			  "Localization Server"
 	  SID			  "530"
-	  Ports			  [0, 3]
-	  Position		  [1325, 61, 1475, 479]
+	  Ports			  [0, 4]
+	  Position		  [1325, 63, 1475, 482]
 	  ZOrder		  1734
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
@@ -14596,22 +14919,19 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "142"
+	    ZoomFactor		    "139"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Data Server\n(Localization) "
-	      SID		      "582"
-	      Ports		      [0, 1]
-	      Position		      [-235, -73, -190, -47]
-	      ZOrder		      1472
-	      BackgroundColor	      "red"
+	      Name		      "Convention Correction\n(Motive Frame to Research Studio Frame)"
+	      SID		      "583"
+	      Ports		      [2, 2]
+	      Position		      [-365, -40, -215, 40]
+	      ZOrder		      2290
 	      NameLocation	      "top"
-	      FontName		      "Arial"
-	      FontSize		      8
 	      RequestExecContextInheritance off
 	      System {
-		Name			"Data Server\n(Localization) "
+		Name			"Convention Correction\n(Motive Frame to Research Studio Frame)"
 		Location		[-8, -8, 1928, 1040]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
@@ -14628,71 +14948,42 @@ Model {
 		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 		TiledPageScale		1
 		ShowPageBoundaries	off
-		ZoomFactor		"129"
+		ZoomFactor		"120"
 		SimulinkSubDomain	"Simulink"
 		Block {
+		  BlockType		  Inport
+		  Name			  "xyz_MF (m) [3]"
+		  SID			  "584"
+		  Position		  [70, 458, 100, 472]
+		  ZOrder		  -1
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "rot_MF (rad) [3]"
+		  SID			  "585"
+		  Position		  [70, 533, 100, 547]
+		  ZOrder		  1
+		  Port			  "2"
+		}
+		Block {
+		  BlockType		  Math
+		  Name			  "Inverse of \nOrthonormal \nMatrix\nis its \nTranspose"
+		  SID			  "586"
+		  Ports			  [1, 1]
+		  Position		  [205, 335, 235, 365]
+		  ZOrder		  35
+		  Operator		  "transpose"
+		  SignedPower		  on
+		}
+		Block {
 		  BlockType		  SubSystem
-		  Name			  "Convention Correction\n(Motive Frame to Research Studio Frame)"
-		  SID			  "583"
-		  Ports			  [2, 2]
-		  Position		  [275, 15, 425, 95]
-		  ZOrder		  811
-		  NameLocation		  "top"
+		  Name			  "Prevent Gimbal Lock"
+		  SID			  "587"
+		  Ports			  [1, 1]
+		  Position		  [515, 515, 685, 555]
+		  ZOrder		  281
 		  RequestExecContextInheritance	off
 		  System {
-		    Name		    "Convention Correction\n(Motive Frame to Research Studio Frame)"
-		    Location		    [-7, 0, 967, 1047]
-		    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-		    Open		    off
-		    PortBlocksUseCompactNotation off
-		    SetExecutionDomain	    off
-		    ExecutionDomainType	    "Deduce"
-		    ModelBrowserVisibility  off
-		    ModelBrowserWidth	    200
-		    ScreenColor		    "white"
-		    PaperOrientation	    "landscape"
-		    PaperPositionMode	    "auto"
-		    PaperType		    "usletter"
-		    PaperUnits		    "inches"
-		    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
-		    TiledPageScale	    1
-		    ShowPageBoundaries	    off
-		    ZoomFactor		    "120"
-		    SimulinkSubDomain	    "Simulink"
-		    Block {
-		    BlockType		    Inport
-		    Name		    "xyz_MF (m) [3]"
-		    SID			    "584"
-		    Position		    [70, 458, 100, 472]
-		    ZOrder		    -1
-		    }
-		    Block {
-		    BlockType		    Inport
-		    Name		    "rot_MF (rad) [3]"
-		    SID			    "585"
-		    Position		    [70, 533, 100, 547]
-		    ZOrder		    1
-		    Port		    "2"
-		    }
-		    Block {
-		    BlockType		    Math
-		    Name		    "Inverse of \nOrthonormal \nMatrix\nis its \nTranspose"
-		    SID			    "586"
-		    Ports		    [1, 1]
-		    Position		    [205, 335, 235, 365]
-		    ZOrder		    35
-		    Operator		    "transpose"
-		    SignedPower		    on
-		    }
-		    Block {
-		    BlockType		    SubSystem
-		    Name		    "Prevent Gimbal Lock"
-		    SID			    "587"
-		    Ports		    [1, 1]
-		    Position		    [515, 515, 685, 555]
-		    ZOrder		    281
-		    RequestExecContextInheritance off
-		    System {
 		    Name		    "Prevent Gimbal Lock"
 		    Location		    [-7, 0, 967, 1047]
 		    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
@@ -14863,378 +15154,227 @@ Model {
 		    Interpreter		    "rich"
 		    ZOrder		    -1
 		    }
-		    }
-		    }
-		    Block {
-		    BlockType		    Product
-		    Name		    "Product"
-		    SID			    "595"
-		    Ports		    [2, 1]
-		    Position		    [330, 517, 370, 548]
-		    ZOrder		    61
-		    ShowName		    off
-		    Multiplication	    "Matrix(*)"
-		    }
-		    Block {
-		    BlockType		    Product
-		    Name		    "Product1"
-		    SID			    "596"
-		    Ports		    [2, 1]
-		    Position		    [330, 442, 370, 473]
-		    ZOrder		    57
-		    ShowName		    off
-		    Multiplication	    "Matrix(*)"
-		    }
-		    Block {
-		    BlockType		    Constant
-		    Name		    "Rotate Basis from \nRSF to MF"
-		    SID			    "597"
-		    Position		    [35, 329, 130, 371]
-		    ZOrder		    23
-		    Value		    "[0 -1 0;0 0 1;-1 0 0]"
-		    }
-		    Block {
-		    BlockType		    Outport
-		    Name		    "xyz_RSF (m) [3]"
-		    SID			    "598"
-		    Position		    [725, 453, 755, 467]
-		    ZOrder		    79
-		    VectorParamsAs1DForOutWhenUnconnected off
-		    }
-		    Block {
-		    BlockType		    Outport
-		    Name		    "rot_RSF (rad) [3]"
-		    SID			    "599"
-		    Position		    [725, 528, 755, 542]
-		    ZOrder		    78
-		    Port		    "2"
-		    VectorParamsAs1DForOutWhenUnconnected off
-		    }
-		    Line {
-		    ZOrder		    1
-		    SrcBlock		    "Rotate Basis from \nRSF to MF"
-		    SrcPort		    1
-		    DstBlock		    "Inverse of \nOrthonormal \nMatrix\nis its \nTranspose"
-		    DstPort		    1
-		    }
-		    Line {
-		    ZOrder		    2
-		    SrcBlock		    "xyz_MF (m) [3]"
-		    SrcPort		    1
-		    DstBlock		    "Product1"
-		    DstPort		    2
-		    }
-		    Line {
-		    ZOrder		    3
-		    SrcBlock		    "Inverse of \nOrthonormal \nMatrix\nis its \nTranspose"
-		    SrcPort		    1
-		    Points		    [70, 0; 0, 100]
-		    Branch {
-		    ZOrder		    4
-		    DstBlock		    "Product1"
-		    DstPort		    1
-		    }
-		    Branch {
-		    ZOrder		    5
-		    Points		    [0, 75]
-		    DstBlock		    "Product"
-		    DstPort		    1
-		    }
-		    }
-		    Line {
-		    ZOrder		    6
-		    SrcBlock		    "rot_MF (rad) [3]"
-		    SrcPort		    1
-		    DstBlock		    "Product"
-		    DstPort		    2
-		    }
-		    Line {
-		    ZOrder		    7
-		    SrcBlock		    "Product1"
-		    SrcPort		    1
-		    DstBlock		    "xyz_RSF (m) [3]"
-		    DstPort		    1
-		    }
-		    Line {
-		    ZOrder		    8
-		    SrcBlock		    "Product"
-		    SrcPort		    1
-		    DstBlock		    "Prevent Gimbal Lock"
-		    DstPort		    1
-		    }
-		    Line {
-		    ZOrder		    9
-		    SrcBlock		    "Prevent Gimbal Lock"
-		    SrcPort		    1
-		    DstBlock		    "rot_RSF (rad) [3]"
-		    DstPort		    1
-		    }
-		    Annotation {
-		    SID			    "608"
-		    Name		    "MF_R_RSF"
-		    Position		    [139, 335, 193, 349]
-		    InternalMargins	    [0, 0, 0, 0]
-		    HorizontalAlignment	    "left"
-		    VerticalAlignment	    "top"
-		    ZOrder		    -1
-		    }
-		    Annotation {
-		    SID			    "607"
-		    Name		    "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<"
-		    "html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n"
-		    "</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<"
-		    "p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent"
-		    ":0px; line-height:100%;\"><span style=\" font-size:8px;\">This subsystem converts measurements in the Motive Fra"
-		    "me (MF)(raw optitrack) into the Research Studio Frame (RSF).<br /></span></p></body></html>"
-		    Position		    [35, 301, 482, 318]
-		    InternalMargins	    [0, 0, 0, 0]
-		    FixedHeight		    on
-		    FixedWidth		    on
-		    HorizontalAlignment	    "left"
-		    VerticalAlignment	    "top"
-		    Interpreter		    "rich"
-		    ZOrder		    -2
-		    }
-		    Annotation {
-		    SID			    "606"
-		    Name		    "RSF_R_MF"
-		    Position		    [248, 335, 302, 349]
-		    InternalMargins	    [0, 0, 0, 0]
-		    HorizontalAlignment	    "left"
-		    VerticalAlignment	    "top"
-		    ZOrder		    -3
-		    }
-		    Annotation {
-		    SID			    "605"
-		    Name		    "XYZ in MF"
-		    Position		    [195, 451, 244, 465]
-		    InternalMargins	    [0, 0, 0, 0]
-		    HorizontalAlignment	    "left"
-		    VerticalAlignment	    "top"
-		    ZOrder		    -4
-		    }
-		    Annotation {
-		    SID			    "604"
-		    Name		    "RPY in MF"
-		    Position		    [196, 523, 246, 537]
-		    InternalMargins	    [0, 0, 0, 0]
-		    HorizontalAlignment	    "left"
-		    VerticalAlignment	    "top"
-		    ZOrder		    -5
-		    }
-		    Annotation {
-		    SID			    "603"
-		    Name		    "position"
-		    Position		    [201, 471, 237, 485]
-		    InternalMargins	    [0, 0, 0, 0]
-		    HorizontalAlignment	    "left"
-		    VerticalAlignment	    "top"
-		    ZOrder		    -6
-		    }
-		    Annotation {
-		    SID			    "602"
-		    Name		    "attitude"
-		    Position		    [202, 543, 236, 557]
-		    InternalMargins	    [0, 0, 0, 0]
-		    HorizontalAlignment	    "left"
-		    VerticalAlignment	    "top"
-		    ZOrder		    -7
-		    }
-		    Annotation {
-		    SID			    "601"
-		    Name		    "XYZ in RSF"
-		    Position		    [429, 442, 483, 456]
-		    InternalMargins	    [0, 0, 0, 0]
-		    HorizontalAlignment	    "left"
-		    VerticalAlignment	    "top"
-		    ZOrder		    -8
-		    }
-		    Annotation {
-		    SID			    "600"
-		    Name		    "RPY in RSF"
-		    Position		    [429, 516, 484, 530]
-		    InternalMargins	    [0, 0, 0, 0]
-		    HorizontalAlignment	    "left"
-		    VerticalAlignment	    "top"
-		    ZOrder		    -9
-		    }
 		  }
 		}
 		Block {
-		  BlockType		  DataTypeConversion
-		  Name			  "Data Type Conversion"
-		  SID			  "609"
-		  Position		  [335, 113, 370, 127]
-		  ZOrder		  809
+		  BlockType		  Product
+		  Name			  "Product"
+		  SID			  "595"
+		  Ports			  [2, 1]
+		  Position		  [330, 517, 370, 548]
+		  ZOrder		  61
 		  ShowName		  off
-		  RndMeth		  "Floor"
-		  SaturateOnIntegerOverflow off
+		  Multiplication	  "Matrix(*)"
 		}
 		Block {
-		  BlockType		  Mux
-		  Name			  "Mux"
-		  SID			  "610"
-		  Ports			  [3, 1]
-		  Position		  [490, 26, 495, 64]
-		  ZOrder		  805
+		  BlockType		  Product
+		  Name			  "Product1"
+		  SID			  "596"
+		  Ports			  [2, 1]
+		  Position		  [330, 442, 370, 473]
+		  ZOrder		  57
 		  ShowName		  off
-		  Inputs		  "3"
-		  DisplayOption		  "bar"
+		  Multiplication	  "Matrix(*)"
 		}
 		Block {
-		  BlockType		  Reference
-		  Name			  "OptiTrack Trackables"
-		  SID			  "611"
-		  Ports			  [0, 4]
-		  Position		  [-50, 23, 135, 107]
-		  ZOrder		  4
-		  LibraryVersion	  "1.2208"
-		  SourceBlock		  "quarc_library/Devices/Third-Party/NaturalPoint/OptiTrack/OptiTrack Trackables"
-		  SourceType		  "OptiTrack Rigid Body Position"
-		  SourceProductName	  "QUARC Targets"
-		  MultithreadedSim	  "auto"
-		  calibration_file	  "C:\\Users\\Administrateur\\Desktop\\TelloPosControl\\Motive Calibrations\\CalibrationQDroenWit"
-		  "hOffsetN00Deg.cal"
-		  rigid_body_file	  "C:\\Users\\Administrateur\\Desktop\\TelloPosControl\\Motive Calibrations\\Tello 1.motive"
-		  rigid_body_ids	  "[13]"
-		  sample_time		  "qc_get_step_size*1"
-		  active		  off
-		}
-		Block {
-		  BlockType		  RateTransition
-		  Name			  "Rate Transition2"
-		  SID			  "612"
-		  Position		  [525, 39, 545, 51]
-		  ZOrder		  814
-		  ShowName		  off
-		}
-		Block {
-		  BlockType		  Terminator
-		  Name			  "Terminator"
-		  SID			  "613"
-		  Position		  [180, 47, 195, 63]
-		  ZOrder		  792
-		  ShowName		  off
+		  BlockType		  Constant
+		  Name			  "Rotate Basis from \nRSF to MF"
+		  SID			  "597"
+		  Position		  [35, 329, 130, 371]
+		  ZOrder		  23
+		  Value			  "[0 -1 0;0 0 1;-1 0 0]"
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Data"
-		  SID			  "614"
-		  Position		  [605, 38, 635, 52]
-		  ZOrder		  810
+		  Name			  "xyz_RSF (m) [3]"
+		  SID			  "598"
+		  Position		  [725, 453, 755, 467]
+		  ZOrder		  79
+		  VectorParamsAs1DForOutWhenUnconnected	off
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "rot_RSF (rad) [3]"
+		  SID			  "599"
+		  Position		  [725, 528, 755, 542]
+		  ZOrder		  78
+		  Port			  "2"
 		  VectorParamsAs1DForOutWhenUnconnected	off
 		}
 		Line {
 		  ZOrder		  1
-		  SrcBlock		  "Mux"
+		  SrcBlock		  "Rotate Basis from \nRSF to MF"
 		  SrcPort		  1
-		  DstBlock		  "Rate Transition2"
+		  DstBlock		  "Inverse of \nOrthonormal \nMatrix\nis its \nTranspose"
 		  DstPort		  1
 		}
 		Line {
 		  ZOrder		  2
-		  SrcBlock		  "Convention Correction\n(Motive Frame to Research Studio Frame)"
+		  SrcBlock		  "xyz_MF (m) [3]"
 		  SrcPort		  1
-		  DstBlock		  "Mux"
-		  DstPort		  1
+		  DstBlock		  "Product1"
+		  DstPort		  2
 		}
 		Line {
 		  ZOrder		  3
-		  SrcBlock		  "Convention Correction\n(Motive Frame to Research Studio Frame)"
-		  SrcPort		  2
-		  Points		  [21, 0; 0, -30]
-		  DstBlock		  "Mux"
-		  DstPort		  2
-		}
-		Line {
-		  ZOrder		  4
-		  SrcBlock		  "Data Type Conversion"
+		  SrcBlock		  "Inverse of \nOrthonormal \nMatrix\nis its \nTranspose"
 		  SrcPort		  1
-		  Points		  [86, 0; 0, -65]
-		  DstBlock		  "Mux"
-		  DstPort		  3
-		}
-		Line {
-		  ZOrder		  5
-		  SrcBlock		  "OptiTrack Trackables"
-		  SrcPort		  1
-		  DstBlock		  "Convention Correction\n(Motive Frame to Research Studio Frame)"
-		  DstPort		  1
+		  Points		  [70, 0; 0, 100]
+		  Branch {
+		    ZOrder		    4
+		    DstBlock		    "Product1"
+		    DstPort		    1
+		  }
+		  Branch {
+		    ZOrder		    5
+		    Points		    [0, 75]
+		    DstBlock		    "Product"
+		    DstPort		    1
+		  }
 		}
 		Line {
 		  ZOrder		  6
-		  SrcBlock		  "OptiTrack Trackables"
-		  SrcPort		  2
-		  DstBlock		  "Terminator"
-		  DstPort		  1
-		}
-		Line {
-		  ZOrder		  7
-		  SrcBlock		  "OptiTrack Trackables"
-		  SrcPort		  3
-		  DstBlock		  "Convention Correction\n(Motive Frame to Research Studio Frame)"
+		  SrcBlock		  "rot_MF (rad) [3]"
+		  SrcPort		  1
+		  DstBlock		  "Product"
 		  DstPort		  2
 		}
 		Line {
+		  ZOrder		  7
+		  SrcBlock		  "Product1"
+		  SrcPort		  1
+		  DstBlock		  "xyz_RSF (m) [3]"
+		  DstPort		  1
+		}
+		Line {
 		  ZOrder		  8
-		  SrcBlock		  "OptiTrack Trackables"
-		  SrcPort		  4
-		  Points		  [85, 0; 0, 25]
-		  DstBlock		  "Data Type Conversion"
+		  SrcBlock		  "Product"
+		  SrcPort		  1
+		  DstBlock		  "Prevent Gimbal Lock"
 		  DstPort		  1
 		}
 		Line {
 		  ZOrder		  9
-		  SrcBlock		  "Rate Transition2"
+		  SrcBlock		  "Prevent Gimbal Lock"
 		  SrcPort		  1
-		  DstBlock		  "Data"
+		  DstBlock		  "rot_RSF (rad) [3]"
 		  DstPort		  1
 		}
 		Annotation {
-		  SID			  "615"
-		  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<htm"
-		  "l><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</st"
-		  "yle></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<ol sty"
-		  "le=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" "
-		  "font-size:8px;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:"
-		  "0; text-indent:0px; line-height:100%;\"><span style=\" font-size:8px;\">Double-click on the </span><span style=\" "
-		  "font-size:8px; color:#c00000;\">OptiTrack Trackables</span><span style=\" font-size:8px;\"> block.<br /></span></l"
-		  "i>\n<li style=\" font-size:8px;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; "
-		  "-qt-block-indent:0; text-indent:0px; line-height:100%;\"><span style=\" font-size:8px;\">Click on the </span><span"
-		  " style=\" font-size:8px; color:#c00000;\">...</span><span style=\" font-size:8px;\"> icon under </span><span style"
-		  "=\" font-size:8px; color:#c00000;\">Calibration file:</span><span style=\" font-size:8px;\"> and select the .cal f"
-		  "ile <br />created when calibrating  the Optitrack cameras<br /></span></li>\n<li style=\" font-size:8px;\" style=\""
-		  " margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-"
-		  "height:100%;\"><span style=\" font-size:8px;\">Click on the </span><span style=\" font-size:8px; color:#c00000;\">"
-		  "...</span><span style=\" font-size:8px;\"> icon under </span><span style=\" font-size:8px; color:#c00000;\">Tracka"
-		  "bles definition file:</span><span style=\" font-size:8px;\"> and select <br />the trackables file created when def"
-		  "ining rigid bodies </span><span style=\" font-size:8px;\">(for the <br />QDrone you are about to use)</span><span "
-		  "style=\" font-size:8px;\"><br /></span></li></ol>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bot"
-		  "tom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; font-size:8px;\""
-		  "><br /></p></body></html>"
-		  Position		  [-19, -78, 244, 14]
+		  SID			  "608"
+		  Name			  "MF_R_RSF"
+		  Position		  [139, 335, 193, 349]
 		  InternalMargins	  [0, 0, 0, 0]
 		  HorizontalAlignment	  "left"
 		  VerticalAlignment	  "top"
-		  Interpreter		  "rich"
 		  ZOrder		  -1
 		}
+		Annotation {
+		  SID			  "607"
+		  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<htm"
+		  "l><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</st"
+		  "yle></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n<p styl"
+		  "e=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; li"
+		  "ne-height:100%;\"><span style=\" font-size:8px;\">This subsystem converts measurements in the Motive Frame (MF)(ra"
+		  "w optitrack) into the Research Studio Frame (RSF).<br /></span></p></body></html>"
+		  Position		  [35, 301, 482, 318]
+		  InternalMargins	  [0, 0, 0, 0]
+		  FixedHeight		  on
+		  FixedWidth		  on
+		  HorizontalAlignment	  "left"
+		  VerticalAlignment	  "top"
+		  Interpreter		  "rich"
+		  ZOrder		  -2
+		}
+		Annotation {
+		  SID			  "606"
+		  Name			  "RSF_R_MF"
+		  Position		  [248, 335, 302, 349]
+		  InternalMargins	  [0, 0, 0, 0]
+		  HorizontalAlignment	  "left"
+		  VerticalAlignment	  "top"
+		  ZOrder		  -3
+		}
+		Annotation {
+		  SID			  "605"
+		  Name			  "XYZ in MF"
+		  Position		  [195, 451, 244, 465]
+		  InternalMargins	  [0, 0, 0, 0]
+		  HorizontalAlignment	  "left"
+		  VerticalAlignment	  "top"
+		  ZOrder		  -4
+		}
+		Annotation {
+		  SID			  "604"
+		  Name			  "RPY in MF"
+		  Position		  [196, 523, 246, 537]
+		  InternalMargins	  [0, 0, 0, 0]
+		  HorizontalAlignment	  "left"
+		  VerticalAlignment	  "top"
+		  ZOrder		  -5
+		}
+		Annotation {
+		  SID			  "603"
+		  Name			  "position"
+		  Position		  [201, 471, 237, 485]
+		  InternalMargins	  [0, 0, 0, 0]
+		  HorizontalAlignment	  "left"
+		  VerticalAlignment	  "top"
+		  ZOrder		  -6
+		}
+		Annotation {
+		  SID			  "602"
+		  Name			  "attitude"
+		  Position		  [202, 543, 236, 557]
+		  InternalMargins	  [0, 0, 0, 0]
+		  HorizontalAlignment	  "left"
+		  VerticalAlignment	  "top"
+		  ZOrder		  -7
+		}
+		Annotation {
+		  SID			  "601"
+		  Name			  "XYZ in RSF"
+		  Position		  [429, 442, 483, 456]
+		  InternalMargins	  [0, 0, 0, 0]
+		  HorizontalAlignment	  "left"
+		  VerticalAlignment	  "top"
+		  ZOrder		  -8
+		}
+		Annotation {
+		  SID			  "600"
+		  Name			  "RPY in RSF"
+		  Position		  [429, 516, 484, 530]
+		  InternalMargins	  [0, 0, 0, 0]
+		  HorizontalAlignment	  "left"
+		  VerticalAlignment	  "top"
+		  ZOrder		  -9
+		}
 	      }
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "609"
+	      Position		      [-305, 58, -270, 72]
+	      ZOrder		      2288
+	      ShowName		      off
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
 	    }
 	    Block {
 	      BlockType		      Derivative
 	      Name		      "Derivative"
 	      SID		      "728"
-	      Position		      [330, -110, 360, -80]
-	      ZOrder		      1482
+	      Position		      [475, 0, 505, 30]
+	      ZOrder		      2303
 	    }
 	    Block {
 	      BlockType		      Display
 	      Name		      "Display"
 	      SID		      "660"
 	      Ports		      [1]
-	      Position		      [330, -223, 395, -147]
-	      ZOrder		      1480
+	      Position		      [545, 102, 610, 178]
+	      ZOrder		      2301
 	      Decimation	      "1"
 	    }
 	    Block {
@@ -15242,8 +15382,8 @@ Model {
 	      Name		      "Display1"
 	      SID		      "661"
 	      Ports		      [1]
-	      Position		      [-115, 29, 85, 171]
-	      ZOrder		      1481
+	      Position		      [45, -121, 195, -49]
+	      ZOrder		      2302
 	      Decimation	      "1"
 	    }
 	    Block {
@@ -15251,8 +15391,8 @@ Model {
 	      Name		      "Display2"
 	      SID		      "729"
 	      Ports		      [1]
-	      Position		      [405, -133, 470, -57]
-	      ZOrder		      1483
+	      Position		      [545, -98, 610, -22]
+	      ZOrder		      2304
 	      Decimation	      "1"
 	    }
 	    Block {
@@ -15260,8 +15400,8 @@ Model {
 	      Name		      "Extract Vehicle Data"
 	      SID		      "616"
 	      Ports		      [2, 1]
-	      Position		      [-100, -78, 20, -7]
-	      ZOrder		      1475
+	      Position		      [45, 52, 165, 123]
+	      ZOrder		      2296
 	      FontName		      "Arial"
 	      FontSize		      8
 	      RequestExecContextInheritance off
@@ -15642,8 +15782,8 @@ Model {
 	      Name		      "Measurement Conditioning"
 	      SID		      "628"
 	      Ports		      [1, 3]
-	      Position		      [80, -69, 200, -11]
-	      ZOrder		      1477
+	      Position		      [230, 61, 350, 119]
+	      ZOrder		      2298
 	      FontName		      "Arial"
 	      FontSize		      8
 	      RequestExecContextInheritance off
@@ -15980,12 +16120,50 @@ Model {
 	      }
 	    }
 	    Block {
+	      BlockType		      Mux
+	      Name		      "Mux"
+	      SID		      "610"
+	      Ports		      [3, 1]
+	      Position		      [-150, -29, -145, 9]
+	      ZOrder		      2284
+	      ShowName		      off
+	      Inputs		      "3"
+	      DisplayOption	      "bar"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "OptiTrack Trackables"
+	      SID		      "611"
+	      Ports		      [0, 4]
+	      Position		      [-690, -32, -505, 52]
+	      ZOrder		      1483
+	      LibraryVersion	      "1.2208"
+	      SourceBlock	      "quarc_library/Devices/Third-Party/NaturalPoint/OptiTrack/OptiTrack Trackables"
+	      SourceType	      "OptiTrack Rigid Body Position"
+	      SourceProductName	      "QUARC Targets"
+	      MultithreadedSim	      "auto"
+	      calibration_file	      "C:\\Users\\ESTACA\\Documents\\OptiTrack\\Session 2022-09-14\\CalibrationQDroenWithOffse"
+	      "tN00Deg.cal"
+	      rigid_body_file	      "C:\\Users\\ESTACA\\Documents\\OptiTrack\\Session 2022-09-14\\Tello 1.motive"
+	      rigid_body_ids	      "[13]"
+	      sample_time	      "qc_get_step_size*1"
+	      active		      off
+	    }
+	    Block {
+	      BlockType		      RateTransition
+	      Name		      "Rate Transition2"
+	      SID		      "612"
+	      Position		      [-115, -16, -95, -4]
+	      ZOrder		      2293
+	      ShowName		      off
+	    }
+	    Block {
 	      BlockType		      Selector
 	      Name		      "Selector"
 	      SID		      "649"
 	      Ports		      [1, 1]
-	      Position		      [260, 6, 305, 44]
-	      ZOrder		      1478
+	      Position		      [405, 141, 450, 179]
+	      ZOrder		      2299
 	      InputPortWidth	      "7"
 	      IndexOptions	      "Index vector (dialog)"
 	      Indices		      "[1:6]"
@@ -15995,15 +16173,23 @@ Model {
 	      BlockType		      Terminator
 	      Name		      "Terminator"
 	      SID		      "650"
-	      Position		      [235, -50, 255, -30]
-	      ZOrder		      1479
+	      Position		      [385, 80, 405, 100]
+	      ZOrder		      2300
+	    }
+	    Block {
+	      BlockType		      Terminator
+	      Name		      "Terminator1"
+	      SID		      "613"
+	      Position		      [-460, -8, -445, 8]
+	      ZOrder		      2271
+	      ShowName		      off
 	    }
 	    Block {
 	      BlockType		      Constant
 	      Name		      "Vehicle ID"
 	      SID		      "645"
-	      Position		      [-225, -35, -195, -15]
-	      ZOrder		      1476
+	      Position		      [-35, 95, -5, 115]
+	      ZOrder		      2297
 	      FontName		      "Arial"
 	      FontSize		      8
 	    }
@@ -16012,8 +16198,8 @@ Model {
 	      Name		      "isTracking"
 	      SID		      "646"
 	      Ports		      [1, 1]
-	      Position		      [-150, -107, -110, -93]
-	      ZOrder		      1474
+	      Position		      [60, -17, 100, -3]
+	      ZOrder		      2295
 	      NameLocation	      "top"
 	      ShowName		      off
 	      FontName		      "Arial"
@@ -16028,8 +16214,8 @@ Model {
 	      Name		      "isTracking?"
 	      SID		      "647"
 	      Ports		      [1]
-	      Position		      [-65, -108, -15, -92]
-	      ZOrder		      1473
+	      Position		      [145, -18, 195, -2]
+	      ZOrder		      2294
 	      NameLocation	      "top"
 	      FontName		      "Arial"
 	      FontSize		      8
@@ -16039,14 +16225,14 @@ Model {
 	      BlockType		      Outport
 	      Name		      "attitude"
 	      SID		      "533"
-	      Position		      [330, 18, 360, 32]
+	      Position		      [475, 153, 505, 167]
 	      ZOrder		      1
 	    }
 	    Block {
 	      BlockType		      Outport
 	      Name		      "pose"
 	      SID		      "532"
-	      Position		      [330, -47, 360, -33]
+	      Position		      [560, 63, 590, 77]
 	      ZOrder		      -2
 	      Port		      "2"
 	    }
@@ -16054,34 +16240,42 @@ Model {
 	      BlockType		      Outport
 	      Name		      "velocity"
 	      SID		      "739"
-	      Position		      [420, -47, 450, -33]
-	      ZOrder		      1484
+	      Position		      [560, 8, 590, 22]
+	      ZOrder		      2305
 	      Port		      "3"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "is_tracking"
+	      SID		      "852"
+	      Position		      [155, 8, 185, 22]
+	      ZOrder		      2306
+	      Port		      "4"
 	    }
 	    Line {
 	      ZOrder		      10
 	      SrcBlock		      "Measurement Conditioning"
 	      SrcPort		      1
-	      Points		      [-5, 0; 91, 0]
+	      Points		      [90, 0]
 	      Branch {
-		ZOrder			21
-		Points			[0, -35]
+		ZOrder			73
+		Points			[80, 0]
 		Branch {
-		  ZOrder		  20
-		  DstBlock		  "Derivative"
+		  ZOrder		  17
+		  DstBlock		  "pose"
 		  DstPort		  1
 		}
 		Branch {
-		  ZOrder		  16
-		  Points		  [0, -90]
+		  ZOrder		  67
+		  Points		  [0, 70]
 		  DstBlock		  "Display"
 		  DstPort		  1
 		}
 	      }
 	      Branch {
-		ZOrder			17
-		Points			[0, 20]
-		DstBlock		"pose"
+		ZOrder			71
+		Points			[0, -55; 30, 0]
+		DstBlock		"Derivative"
 		DstPort			1
 	      }
 	    }
@@ -16089,36 +16283,46 @@ Model {
 	      ZOrder		      4
 	      SrcBlock		      "isTracking"
 	      SrcPort		      1
-	      DstBlock		      "isTracking?"
-	      DstPort		      1
+	      Points		      [17, 0]
+	      Branch {
+		ZOrder			39
+		Points			[0, 25]
+		DstBlock		"is_tracking"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			38
+		DstBlock		"isTracking?"
+		DstPort			1
+	      }
 	    }
 	    Line {
 	      ZOrder		      5
 	      SrcBlock		      "Vehicle ID"
 	      SrcPort		      1
-	      Points		      [90, 0]
 	      DstBlock		      "Extract Vehicle Data"
 	      DstPort		      2
 	    }
 	    Line {
-	      ZOrder		      8
-	      SrcBlock		      "Data Server\n(Localization) "
+	      ZOrder		      41
+	      SrcBlock		      "Rate Transition2"
 	      SrcPort		      1
-	      Points		      [55, 0]
+	      Points		      [112, 0]
 	      Branch {
-		ZOrder			6
-		Points			[0, -16; -40, 0; 0, -24]
-		DstBlock		"isTracking"
+		ZOrder			50
+		Points			[0, 80]
+		DstBlock		"Extract Vehicle Data"
 		DstPort			1
 	      }
 	      Branch {
-		ZOrder			19
+		ZOrder			72
+		Points			[0, -75]
 		DstBlock		"Display1"
 		DstPort			1
 	      }
 	      Branch {
-		ZOrder			11
-		DstBlock		"Extract Vehicle Data"
+		ZOrder			49
+		DstBlock		"isTracking"
 		DstPort			1
 	      }
 	    }
@@ -16126,6 +16330,7 @@ Model {
 	      ZOrder		      9
 	      SrcBlock		      "Extract Vehicle Data"
 	      SrcPort		      1
+	      Points		      [60, 0]
 	      DstBlock		      "Measurement Conditioning"
 	      DstPort		      1
 	    }
@@ -16142,7 +16347,7 @@ Model {
 	      Labels		      [0, 0]
 	      SrcBlock		      "Measurement Conditioning"
 	      SrcPort		      3
-	      Points		      [25, 0; 0, 45]
+	      Points		      [25, 0; 0, 50]
 	      DstBlock		      "Selector"
 	      DstPort		      1
 	    }
@@ -16157,23 +16362,97 @@ Model {
 	      ZOrder		      23
 	      SrcBlock		      "Derivative"
 	      SrcPort		      1
-	      Points		      [13, 0]
+	      Points		      [7, 0]
 	      Branch {
-		ZOrder			26
-		Points			[0, 55]
+		ZOrder			70
 		DstBlock		"velocity"
 		DstPort			1
 	      }
 	      Branch {
-		ZOrder			25
+		ZOrder			65
+		Points			[0, -75]
 		DstBlock		"Display2"
 		DstPort			1
 	      }
 	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "OptiTrack Trackables"
+	      SrcPort		      4
+	      Points		      [85, 0; 0, 25]
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "OptiTrack Trackables"
+	      SrcPort		      3
+	      DstBlock		      "Convention Correction\n(Motive Frame to Research Studio Frame)"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "OptiTrack Trackables"
+	      SrcPort		      2
+	      DstBlock		      "Terminator1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "OptiTrack Trackables"
+	      SrcPort		      1
+	      DstBlock		      "Convention Correction\n(Motive Frame to Research Studio Frame)"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      Points		      [86, 0; 0, -65]
+	      DstBlock		      "Mux"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Convention Correction\n(Motive Frame to Research Studio Frame)"
+	      SrcPort		      2
+	      Points		      [21, 0; 0, -30]
+	      DstBlock		      "Mux"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Convention Correction\n(Motive Frame to Research Studio Frame)"
+	      SrcPort		      1
+	      DstBlock		      "Mux"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Mux"
+	      SrcPort		      1
+	      DstBlock		      "Rate Transition2"
+	      DstPort		      1
+	    }
+	    Annotation {
+	      SID		      "859"
+	      Name		      "Data Server\n(Localization) "
+	      Position		      [-705, -163, -80, 87]
+	      InternalMargins	      [0, 0, 0, 0]
+	      FixedWidth	      on
+	      HorizontalAlignment     "left"
+	      VerticalAlignment	      "top"
+	      ForegroundColor	      "[0.901961, 0.901961, 1.000000]"
+	      BackgroundColor	      "[0.901961, 0.901961, 1.000000]"
+	      DropShadow	      on
+	      AnnotationType	      "area_annotation"
+	      ZOrder		      134
+	      FontSize		      12
+	    }
 	    Annotation {
 	      SID		      "648"
 	      Name		      "2. Localization Data Server"
-	      Position		      [-259, -125, 31, 15]
+	      Position		      [-724, -260, -59, 247]
 	      InternalMargins	      [0, 0, 0, 0]
 	      FixedHeight	      on
 	      FixedWidth	      on
@@ -16183,9 +16462,38 @@ Model {
 	      BackgroundColor	      "[0.952941, 0.952941, 0.952941]"
 	      DropShadow	      on
 	      AnnotationType	      "area_annotation"
-	      ZOrder		      29
+	      ZOrder		      133
 	      FontName		      "Arial"
 	      FontSize		      8
+	    }
+	    Annotation {
+	      SID		      "858"
+	      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">"
+	      "\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap"
+	      "; }\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;"
+	      "\">\n<ol style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\""
+	      "><li style=\" font-size:8px;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; "
+	      "-qt-block-indent:0; text-indent:0px; line-height:100%;\"><span style=\" font-size:8px;\">Double-click on the </"
+	      "span><span style=\" font-size:8px; color:#c00000;\">OptiTrack Trackables</span><span style=\" font-size:8px;\">"
+	      " block.<br /></span></li>\n<li style=\" font-size:8px;\" style=\" margin-top:0px; margin-bottom:0px; margin-lef"
+	      "t:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;\"><span style=\" font-size:8px"
+	      ";\">Click on the </span><span style=\" font-size:8px; color:#c00000;\">...</span><span style=\" font-size:8px;\""
+	      "> icon under </span><span style=\" font-size:8px; color:#c00000;\">Calibration file:</span><span style=\" font-"
+	      "size:8px;\"> and select the .cal file <br />created when calibrating  the Optitrack cameras<br /></span></li>\n"
+	      "<li style=\" font-size:8px;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -"
+	      "qt-block-indent:0; text-indent:0px; line-height:100%;\"><span style=\" font-size:8px;\">Click on the </span><sp"
+	      "an style=\" font-size:8px; color:#c00000;\">...</span><span style=\" font-size:8px;\"> icon under </span><span "
+	      "style=\" font-size:8px; color:#c00000;\">Trackables definition file:</span><span style=\" font-size:8px;\"> and"
+	      " select <br />the trackables file created when defining rigid bodies </span><span style=\" font-size:8px;\">(fo"
+	      "r the <br />QDrone you are about to use)</span><span style=\" font-size:8px;\"><br /></span></li></ol>\n<p styl"
+	      "e=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-i"
+	      "ndent:0; text-indent:0px; line-height:100%; font-size:8px;\"><br /></p></body></html>"
+	      Position		      [-659, -133, -396, -41]
+	      InternalMargins	      [0, 0, 0, 0]
+	      HorizontalAlignment     "left"
+	      VerticalAlignment	      "top"
+	      Interpreter	      "rich"
+	      ZOrder		      -1
 	    }
 	  }
 	}
@@ -16231,7 +16539,7 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "Subsystem"
-	    Location		    [-8, -8, 1928, 1048]
+	    Location		    [-8, -8, 1928, 1040]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -16247,7 +16555,7 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "200"
+	    ZoomFactor		    "198"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -16594,14 +16902,14 @@ Model {
 	      Ports		      [2, 5]
 	      Position		      [370, 22, 475, 198]
 	      ZOrder		      1555
-	      AttributesFormatString  "\"udp://192.168.2.12:8889?bufsize='1518'\""
+	      AttributesFormatString  "\"udp://192.168.2.15:8889?bufsize='1518'\""
 	      LibraryVersion	      "1.2208"
 	      SourceBlock	      "quarc_library/Communications/Basic/Stream Client"
 	      SourceType	      "Stream Client"
 	      SourceProductName	      "QUARC Targets"
 	      MultithreadedSim	      "auto"
 	      uri_source	      "Specify via dialog (do not evaluate)"
-	      uri		      "udp://192.168.2.12:8889?bufsize='1518'"
+	      uri		      "udp://192.168.2.15:8889?bufsize='1518'"
 	      send_buffer_size	      "1460"
 	      receive_buffer_size     "1460"
 	      byte_order	      "little endian (Intel - LSB first)"
@@ -16818,14 +17126,14 @@ Model {
 	      Ports		      [2, 3]
 	      Position		      [490, 52, 595, 228]
 	      ZOrder		      1715
-	      AttributesFormatString  "\"udp://192.168.2.12:8889?bufsize='1518'\""
+	      AttributesFormatString  "\"udp://192.168.2.15:8889?bufsize='1518'\""
 	      LibraryVersion	      "1.2208"
 	      SourceBlock	      "quarc_library/Communications/Basic/Stream Client"
 	      SourceType	      "Stream Client"
 	      SourceProductName	      "QUARC Targets"
 	      MultithreadedSim	      "auto"
 	      uri_source	      "Specify via dialog (do not evaluate)"
-	      uri		      "udp://192.168.2.12:8889?bufsize='1518'"
+	      uri		      "udp://192.168.2.15:8889?bufsize='1518'"
 	      send_buffer_size	      "1460"
 	      receive_buffer_size     "1460"
 	      byte_order	      "little endian (Intel - LSB first)"
@@ -16909,7 +17217,7 @@ Model {
 	  Name			  "Subsystem4"
 	  SID			  "722"
 	  Ports			  [1, 1]
-	  Position		  [1530, 249, 1630, 291]
+	  Position		  [1530, 199, 1630, 241]
 	  ZOrder		  1743
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
@@ -17017,7 +17325,7 @@ Model {
 	  Name			  "Subsystem5"
 	  SID			  "740"
 	  Ports			  [1, 1]
-	  Position		  [1530, 389, 1630, 431]
+	  Position		  [1530, 304, 1630, 346]
 	  ZOrder		  1744
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
@@ -17302,14 +17610,14 @@ Model {
 	  BlockType		  Outport
 	  Name			  "attitude"
 	  SID			  "541"
-	  Position		  [1695, 123, 1725, 137]
+	  Position		  [1685, 108, 1715, 122]
 	  ZOrder		  1739
 	}
 	Block {
 	  BlockType		  Outport
 	  Name			  "pose"
 	  SID			  "540"
-	  Position		  [1685, 263, 1715, 277]
+	  Position		  [1685, 213, 1715, 227]
 	  ZOrder		  1738
 	  Port			  "2"
 	}
@@ -17317,9 +17625,17 @@ Model {
 	  BlockType		  Outport
 	  Name			  "velocity"
 	  SID			  "745"
-	  Position		  [1685, 403, 1715, 417]
+	  Position		  [1685, 318, 1715, 332]
 	  ZOrder		  1745
 	  Port			  "3"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "is_tracking"
+	  SID			  "853"
+	  Position		  [1685, 423, 1715, 437]
+	  ZOrder		  1746
+	  Port			  "4"
 	}
 	Line {
 	  ZOrder		  554
@@ -17472,6 +17788,13 @@ Model {
 	  DstBlock		  "velocity"
 	  DstPort		  1
 	}
+	Line {
+	  ZOrder		  641
+	  SrcBlock		  "Localization Server"
+	  SrcPort		  4
+	  DstBlock		  "is_tracking"
+	  DstPort		  1
+	}
       }
     }
     Block {
@@ -17518,6 +17841,7 @@ Model {
       ZOrder		      622
       SrcBlock		      "Position control"
       SrcPort		      1
+      Points		      [43, 0; 0, -5]
       DstBlock		      "Subsystem4"
       DstPort		      2
     }
@@ -17525,7 +17849,7 @@ Model {
       ZOrder		      623
       SrcBlock		      "Subsystem4"
       SrcPort		      2
-      Points		      [39, 0; 0, 266; -613, 0; 0, -156]
+      Points		      [10, 0; 0, 292; -587, 0; 0, -137]
       DstBlock		      "Position control"
       DstPort		      3
     }
@@ -17533,6 +17857,7 @@ Model {
       ZOrder		      614
       SrcBlock		      "Subsystem4"
       SrcPort		      1
+      Points		      [65, 0; 0, 15]
       DstBlock		      "Scope"
       DstPort		      1
     }
@@ -17543,12 +17868,13 @@ Model {
       Points		      [23, 0]
       Branch {
 	ZOrder			645
-	Points			[0, 90]
+	Points			[0, 70]
 	DstBlock		"Position control"
 	DstPort			5
       }
       Branch {
 	ZOrder			643
+	Points			[0, -5]
 	DstBlock		"Position control"
 	DstPort			2
       }
@@ -17557,9 +17883,17 @@ Model {
       ZOrder		      624
       SrcBlock		      "Subsystem4"
       SrcPort		      3
-      Points		      [19, 0; 0, 96; -573, 0; 0, -106]
+      Points		      [5, 0; 0, 176; -572, 0; 0, -106]
       DstBlock		      "Position control"
       DstPort		      4
+    }
+    Line {
+      ZOrder		      648
+      SrcBlock		      "Subsystem4"
+      SrcPort		      4
+      Points		      [20, 0; 0, 81; -574, 0; 0, -71]
+      DstBlock		      "Position control"
+      DstPort		      6
     }
   }
 }
@@ -19166,6 +19500,9 @@ Stateflow {
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 23 0 0]
     viewObj		    22
+    visible		    1
+    subviewS {
+    }
     ssIdHighWaterMark	    8
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
@@ -19361,7 +19698,7 @@ Stateflow {
   chart {
     id			    32
     machine		    1
-    name		    "Position control/correction block1/Subsystem/MATLAB Function"
+    name		    "Position control/rotation correction block1/Subsystem/MATLAB Function"
     windowPosition	    [422 539.941 189 413]
     viewLimits		    [0 156.75 0 153.75]
     screen		    [1 1 3600 1200 1.180555555555556]
@@ -19554,7 +19891,7 @@ Stateflow {
   instance {
     id			    41
     machine		    1
-    name		    "Position control/correction block1/Subsystem/MATLAB Function"
+    name		    "Position control/rotation correction block1/Subsystem/MATLAB Function"
     chart		    32
   }
   target {
